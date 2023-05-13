@@ -1,0 +1,35 @@
+.section1{
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 5%;
+    justify-content: space-around;
+
+}
+.section1 .card{
+    height: 500px;
+    color: black;
+    margin-bottom: 20px;
+    min-width: 300px;
+}
+.section1 .card .bg-image{
+    height: 400px;
+    margin: auto;    
+}
+.section1 .card img {
+  height: 100%;
+  max-width: 300px;
+}
+a{
+    color: black;
+}
+.price{
+    line-height:30px;
+}
+.carousel {
+    height: 400px;
+
+}
+.carousel-inner img{
+    height: 400px;
+    margin: auto;   
+}

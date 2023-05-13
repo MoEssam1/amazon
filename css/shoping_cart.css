@@ -1,0 +1,52 @@
+.shoing_cart_content{
+    transition: 0.5s;
+
+}
+.close:hover{
+    cursor: pointer;
+    color: #232f3e;
+}
+.shoping_cart_items{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.shoping_cart_items button{
+    background-color: #232f3e;
+    color: #fff;
+}
+.shoping_cart_items button:hover{
+    background-color: #36495f;
+    color: #fff;
+
+}
+.shoping_cart_items table{
+    width: 100%;
+    border: 0;
+    background-color: #fff;
+}
+.shoping_cart_items table img{
+    width: 40px;
+}
+.shoping_cart_items table input{
+    width: 40px;
+    border: 1px solid ;
+    outline: none;
+}
+.increse_btn ,.decrese_btn{
+    width: 30px;
+    height: 32px;
+    padding: 0;
+}
+.shoing_cart_content{
+    background-color: rgba(223, 221, 221, 0.568);
+    position: fixed;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 20;
+    top: 0;
+    left: 150vw;
+}
+.open_sec{
+    left:0;
+}

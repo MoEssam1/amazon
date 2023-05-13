@@ -1,0 +1,79 @@
+.alerm{
+    height: 100px;
+    margin-top: 40px;
+    border: 2px solid #FFAF38;
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 10px;
+    border-left:10px solid #FFAF38;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.tit{
+    padding: 25px 0;
+}
+.bord{
+    height: 5px ;
+    width: 100%;
+    border-bottom: 3px solid silver;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.things{
+    height: 450px;
+    margin-bottom: 40px;
+}
+.things >div{
+    height: 110px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.things img{
+  width: 60px;
+  height: 60px;
+
+}
+.det{
+    line-height: 19px;
+    font-size: 14px;
+}
+.things h6{
+    font-size: 17px;
+}
+.things>div:hover{
+  background-color: rgb(243, 243, 243);
+}
+
+.map{
+    background-color: rgba(223, 221, 221, 0.568);
+    position: fixed;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 20;
+    top: 0;
+    left: 150vw;
+    
+}
+.open_map{
+    left:0;
+}
+.close_map:hover{
+  cursor: pointer;
+}
+.cursor{
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .alerm{
+        height: 180px;
+        
+    }
+    .things{
+        height: 910px;
+    }
+  
+  }

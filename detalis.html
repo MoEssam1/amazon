@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Details</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="main_page/style.css">
+    <link rel="stylesheet" href="css/shoping_cart.css">
+    <link rel="stylesheet" href="detalis/detalis.css">
+</head>
+<body>
+    <nav class="container-fluid">
+        <div class="d-flex logo_div ">
+          <a href="index.html">
+          <div class="logo"></div>
+          </a>
+          <span class="reg">.eg</span>
+        </div>
+        <div class="deliver me-3">
+          <i class="fa-solid fa-location-dot me-2"></i>
+          <p><span>Deliver to</span> Egypt</p>
+        </div>
+          <form>
+            <div class="btn-group shadow-0">
+              <button type="button" class="btn dropdown-toggle" data-mdb-toggle="dropdown" aria-expanded="false">
+                All
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">All</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+              </ul>
+            </div>
+            <input class="py-2 px-2" type="text" placeholder="Search Amazon.eg">
+            <div class="btn-group shadow-0 bg-warning">
+              <button type="button" class="btn ">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+          </form>
+          <div class="egypt">
+            <img width="20px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAABPCAMAAADmzqp4AAAAe1BMVEUAAADOESb////LAADvysrLy8u7igD07dzu48zt4sbx6NH8+vXy6tbs4ML59evbw5Lo2bTq3Lvj0anAkhDQsW3HnzvNqlvQsGLp28DVuIDl1LPIo0bfypvWu4ndx5zfyqLJo07EwLjbxYrTtXbEmirZwIC4hADBlQDNq1U5nrpRAAABm0lEQVRoge3WTW+sIBSAYcvtHQQOn2VAB2qnonf8/7+wzHTTTZMbFszmvJoYF+ZR0cDw8pwGdNFFF1100UUXXXTRRff/3T/PaXh9TgNpbV1Tbr6YtLtiJ4I+wSX0sfd3meF9Xc65IkSxEaqrOIc+rnCiaiAtYxLqHdzPe7jqVOpzCkqZur9nWk6qi0vf/GKFoBIkVcIu5a1hmNtcrVM6jWQ8paS17+TCFnVO28PdUtZxa/iwGlx2DnqJ54d7josOZ9bFnVKY9RwfbpzzHNLUxw3XH66er6GPe/Fpzu+XOBIWL+95Tv7SxXU+eb1Qwwk3dNH1zHVxP8rV6x2snazlu/bX8tHFrSMalyz4+m/lIi+xjnYXdy/hsJLBcTuASXaEsndxi99GCtQeKdh6hM2XLm6ME6EW2M3fGFhKxhi7uAeobJ2BrDM4Z7OCo4srSObcGJONq5ukmfSZf4kTK9RZsM7AioxKqobft8kVE5VmdXt2q1szyIbHbVvX1TWO5PdpXzJmbcvyigx/G/v8rvXyAcMwDMMwDMMw7Je+AKAVQbQHibQdAAAAAElFTkSuQmCC" alt="">
+            <span style="font-size: 12px;"> EN <i class="fa-solid fa-caret-down"></i></span>
+          </div>
+          <a class="sign" href="sign_in.html" style="color: #fff;">
+            <p>Hello, sign in</p>
+            <p>Account & Lists <i class="fa-solid fa-caret-down"></i></p>
+          </a>
+          <div>
+            <p class="order">Orders</p>
+          </div>
+          <div class="cart">
+              <span class="num">
+                0
+              </span>
+          </div>
+          <div class="position-relative bottom-0 end-0 h-25 car">Cart</div>
+     </nav>   <!-- Navbar -->
+     <section class="bottom_nav">
+      <nav class="navbar navbar-expand-md navbar-light">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+    
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          
+          <!-- Left links -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 left_link">
+            <li class="nav-item">
+              <a class="nav-link" onclick="openNav()"><i class="fa-solid fa-bars"></i> All</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Today's Deals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="phones.html">Phones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" >Help</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Electronics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Appliances</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Video Games</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">contact</a>
+            </li>
+          </ul>
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+    
+        <!-- Right elements -->
+        <div class="d-flex align-items-center image">
+          <img src="https://m.media-amazon.com/images/G/42/Sunrise/Events/2022/NTAWeclomePage/XCM_Manual_1441675_4773841_400x39_2X._CB634027545_.jpg" width="100%" height="100%" alt="">
+    
+        </div>
+        <!-- Right elements -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <ul>
+        <li>
+          <h5>Trending</h5>
+          <p>Best Sellers</p>
+          <p>New Releases</p>
+          <p>Movers & Shakers</p>
+        </li>
+        <li>
+          <h5>Digital Content And Devices</h5>
+          <p>Amazon Kindle E-readres</p>
+         
+        </li>
+        <li>
+          <h5>Shop By Category</h5>
+          <p>Mobiles</p>
+          <p>Computers</p>
+          <p>TVs & Electronics</p>
+          <p>Womens Fashion</p>
+        </li>
+      </ul>
+    </div>
+    <!-- Navbar -->
+    </section>
+    <section class="shoing_cart_content">
+      <div class="close h3 pt-3 border text-end px-3">&#10005</div>
+      <div class="container shoping_cart_items">
+        <table border="1" class="text-center">
+          <thead>
+          <tr>
+            <th>Image</th>
+            <th>Title</th>
+            <th>Amount</th>
+            <th>Price</th>
+            <th>All price</th>
+            <th>Delete</th>
+          </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+
+  <section class="container-fluid sect1"></section>
+    <footer class="footer1">
+        <div class="top">
+          <p>Back to top</p>
+        </div>
+        <div class="container mb-5">
+          <div class="container">
+            <!-- Grid container -->
+            <div class="container px-5 ">
+              <!--Grid row-->
+              <div class="row px-4 pt-5">
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h6>Get to Know Us</h6>
+          
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#!" class="text-white">About Amazon</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Careers</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Amazon Science</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+          
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h6>	
+                    Shop with Us</h6>
+          
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="#!" class="text-white">Your Account</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Your Orders</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Your Addresses</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Your Lists</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+          
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h6 >	
+                    Make Money with Us</h6>
+          
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#!" class="text-white">Protect and build your brand</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Advertise Your Products</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Sell on Amazon</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Fulfillment by Amazon</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+          
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h6 >	
+                    Let Us Help You</h6>
+          
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="#!" class="text-white">Help</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Shipping & Delivery</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Returns & Replacements</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Amazon App Download</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+          
+          </div>
+          
+        </div>
+        <hr>
+        <div class="container d-flex justify-content-center">
+          <div class="d-flex justify-content-between  mt-4 mb-4" style="width: 360px; height: 50px;">
+            <div class="logo"></div>
+            <div class="d-flex">
+              <div class="language pt-1"><i class="fa-solid fa-globe  "></i><p class="mx-2">English</p></div>
+              <div class="language pt-1 ms-2 "><img width="20px" height="15px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAABPCAMAAADmzqp4AAAAe1BMVEUAAADOESb////LAADvysrLy8u7igD07dzu48zt4sbx6NH8+vXy6tbs4ML59evbw5Lo2bTq3Lvj0anAkhDQsW3HnzvNqlvQsGLp28DVuIDl1LPIo0bfypvWu4ndx5zfyqLJo07EwLjbxYrTtXbEmirZwIC4hADBlQDNq1U5nrpRAAABm0lEQVRoge3WTW+sIBSAYcvtHQQOn2VAB2qnonf8/7+wzHTTTZMbFszmvJoYF+ZR0cDw8pwGdNFFF1100UUXXXTRRff/3T/PaXh9TgNpbV1Tbr6YtLtiJ4I+wSX0sfd3meF9Xc65IkSxEaqrOIc+rnCiaiAtYxLqHdzPe7jqVOpzCkqZur9nWk6qi0vf/GKFoBIkVcIu5a1hmNtcrVM6jWQ8paS17+TCFnVO28PdUtZxa/iwGlx2DnqJ54d7josOZ9bFnVKY9RwfbpzzHNLUxw3XH66er6GPe/Fpzu+XOBIWL+95Tv7SxXU+eb1Qwwk3dNH1zHVxP8rV6x2snazlu/bX8tHFrSMalyz4+m/lIi+xjnYXdy/hsJLBcTuASXaEsndxi99GCtQeKdh6hM2XLm6ME6EW2M3fGFhKxhi7uAeobJ2BrDM4Z7OCo4srSObcGJONq5ukmfSZf4kTK9RZsM7AioxKqobft8kVE5VmdXt2q1szyIbHbVvX1TWO5PdpXzJmbcvyigx/G/v8rvXyAcMwDMMwDMMw7Je+AKAVQbQHibQdAAAAAElFTkSuQmCC" alt=""><p class="ms-2">Egypt</p> </div>
+            </div>
+          </div>
+        </div>
+        <div class="last">
+          <div class="container mb-0">
+            <div class="container">
+              <!-- Grid container -->
+              <div class="container px-5 ">
+                <!--Grid row-->
+                <div class="row px-4 pt-5">
+                  <!--Grid column-->
+                  <div class="col-lg-3 col-md-6 mb-4 ">      
+                    <ul class="list-unstyled mb-2 ">
+                      <li>
+                        <a href="#!" class="text-white d-block mb-0">Amazon Advertising</a>
+                        <span class="mb-0 mt-0"> Find, attract, and <br>engage customers</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">      
+                    <ul class="list-unstyled mb-2">
+                      <li>
+                        <a href="#!" class="text-white d-block mb-0">Sell on Amazon.ae</a>
+                        <span class="mb-0 mt-0">Sell globally, start with UAE</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">      
+                    <ul class="list-unstyled mb-2">
+                      <li>
+                        <a href="#!" class="text-white d-block mb-0">Sell on Amazon.sa</a>
+                        <span class="mb-0 mt-0"> Sell globally, start with Saudi Arabia</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">      
+                    <ul class="list-unstyled mb-2">
+                      <li>
+                        <a href="#!" class="text-white d-block mb-0">Amazon Web Services</a>
+                        <span class="mb-0 mt-0"> Scalable Cloud <br>Computing Services</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">      
+                    <ul class="list-unstyled mb-2">
+                      <li>
+                        <a href="#!" class="text-white d-block mb-0">Audible</a>
+                        <span class="mb-0 mt-0"> Download <br>Audio Books</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">      
+                    <ul class="list-unstyled mb-2">
+                      <li>
+                        <a href="#!" class="text-white d-block mb-0">IMDb</a>
+                        <span class="mb-0 mt-0"> Movies, TV<br>& Celebrities</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">      
+                    <ul class="list-unstyled mb-2">
+                      <li>
+                        <a href="#!" class="text-white d-block mb-0">Alexa</a>
+                        <span class="mb-0 mt-0">Actionable Analytics<br>for the Web</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">      
+                    <ul class="list-unstyled mb-2">
+                      <li>
+                        <a href="#!" class="text-white d-block mb-0">Shopbop</a>
+                        <span class="mb-0 mt-0">Designer<br>Fashion Brands</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="text-center p-3 mt-0" style="background-color: #131A22;">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">Amazon.com</a>
+          </div>
+        </div>
+       </footer>
+          <!-- MDB -->
+          <script type="text/javascript" src="js/mdb.min.js"></script>
+          <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+          <!-- Custom scripts -->
+          <script src="detalis/detalis.js"></script>
+          <script type="text/javascript"></script>
+</body>
+</html>
