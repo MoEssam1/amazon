@@ -62,6 +62,7 @@ const ListPhones=[
       price_int:11560,
       price_cent:44,
       num:1,
+      amount:1
     },
     {
       id:"p6",
