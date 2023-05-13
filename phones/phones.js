@@ -4,7 +4,7 @@ fetch('ListPhones.json')
 .then(json=>add_phones(json));
 let phones="";
 let chosed;
-function add_phones() {
+function add_phones(ListPhones) {
   ListPhones.forEach(phone=>{
         if(phone.num==1){
         phones+=`
