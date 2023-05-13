@@ -66,7 +66,7 @@ const ListPhones=[
     },
     {
       id:"p6",
-      title:"Samsung Galaxy S23 Ultra, 256GB, 12 GB RAM, Mobile Phone, Dual SIM, Android Smartphone - Cream",
+      title:"Samsung Galaxy S23 Ultra, 256GB, 12 GB RAM, Mobile Phone, Dual SIM",
       image:"https://m.media-amazon.com/images/I/718mMPLo79L._AC_UL400_.jpg",
       rating:3,
       price_int:45490,
@@ -117,7 +117,7 @@ const ListPhones=[
       },
       {
         id:"p11",
-        title:"Samsung Galaxy S23 Ultra, 256GB, 12GB, 5G Mobile Phone, Dual SIM, Android Smartphone, Green - SM-S918BZGCMEA",
+        title:"Samsung Galaxy S23 Ultra, 256GB, 12GB, 5G Mobile Phone, Dual SIM, Android Smartphone",
         image:"https://m.media-amazon.com/images/I/51mH1rGI3lL._AC_UL400_.jpg",
         rating:3,
         price_int:45490,
